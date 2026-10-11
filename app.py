@@ -47,6 +47,8 @@ tfidf_vec = joblib.load('tfidf_vectorizer.pkl')
 
 emotion_mapping = ['sadness', 'anger', 'love', 'surprise', 'fear', 'joy']
 
+st.set_page_config(page_title="Sentimental Analysis", page_icon="😃")
+
 st.title("Sentimental Analysis")
 user_input = st.text_input("Enter text here:")
 
